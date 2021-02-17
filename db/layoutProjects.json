@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Социальная сеть «Дистанция»",
+        "img": "./img/distance.jpeg",
+        "promo": "https://julyaanashkina.github.io/distance/",
+        "repository": "https://github.com/JulyaAnashkina/distance.git",
+        "stack": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "date": "июнь, 2020"
+    },
+    {
+        "name": "Промосайт к фильму<br>«Охотники за привидениями»",
+        "img": "./img/ghostbusters.jpeg",
+        "promo": "https://julyaanashkina.github.io/Ghostbusters/",
+        "repository": "https://github.com/JulyaAnashkina/Ghostbusters.git",
+        "stack": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "jQuery",
+            "Fancybox",
+            "Swiper"
+        ],
+        "date": "август, 2020"
+    },
+    {
+        "name": "Промосайт компании «SpaceX»",
+        "img": "./img/spaceX.jpeg",
+        "promo": "https://julyaanashkina.github.io/spaceX/",
+        "repository": "https://github.com/JulyaAnashkina/spaceX.git",
+        "stack": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Vidbg",
+            "Rellax",
+            "AOS"
+        ],
+        "date": "август, 2020"
+    },
+    {
+        "name": "Форум-портал «Пикаду»",
+        "img": "./img/pikadu.jpeg",
+        "promo": "https://julyaanashkina.github.io/pikadu/",
+        "repository": "https://github.com/JulyaAnashkina/pikadu.git",
+        "stack": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "date": "октябрь, 2020"
+    }
+]

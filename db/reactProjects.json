@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Промосайт компании «SpaceX»",
+        "img": "./img/spaceXReact.jpeg",
+        "repository": "https://github.com/JulyaAnashkina/ReactSpaceX.git  ",
+        "stack": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React"
+        ],
+        "date": "октябрь, 2020"
+    }
+]

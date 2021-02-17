@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Кафе «White Berry»",
+        "img": "./img/whiteBerry.jpeg",
+        "repository": "https://github.com/JulyaAnashkina/restoranWB.git",
+        "stack": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Node.JS"
+        ],
+        "date": "январь, 2017"
+    },
+    {
+        "name": "Медиаплеер «iTunes»",
+        "img": "./img/aiTunes.jpeg",
+        "promo": "https://julyaanashkina.github.io/aiTunesJS/",
+        "repository": "https://github.com/JulyaAnashkina/aiTunesJS.git",
+        "stack": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "date": "июль, 2020"
+    },
+    {
+        "name": "Игра «Гоночки»",
+        "img": "./img/needforJS.jpeg",
+        "promo": "https://julyaanashkina.github.io/NeedForJS/",
+        "repository": "https://github.com/JulyaAnashkina/NeedForJS.git",
+        "stack": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "date": "сентябрь, 2020"
+    },
+    {
+        "name": "Форум-портал «Пикаду»",
+        "img": "./img/pikaduJS.jpeg",
+        "promo": "https://julyaanashkina.github.io/pikaduJS/",
+        "repository": "https://github.com/JulyaAnashkina/pikaduJS.git",
+        "stack": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Firebase"
+        ],
+        "date": "ноябрь, 2020"
+    }
+]
