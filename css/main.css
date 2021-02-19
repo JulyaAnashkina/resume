@@ -140,7 +140,7 @@ body {
   height: 50px;
   display: none;
 }
-.main {  
+.main {
   background: linear-gradient(
     180deg,
     rgba(245, 245, 245, 0) 1.04%,
@@ -151,7 +151,7 @@ body {
 .promo {
   box-shadow: 0px 7px 12px rgba(158, 158, 163, 0.1);
   /* background: rgba(253, 205, 205, 0.747); */
-  background: rgba( 244, 214, 214, 0.74);
+  background: rgba(244, 214, 214, 0.74);
 
   border-radius: 10px;
   padding: 68px 70px;
@@ -159,6 +159,7 @@ body {
 }
 
 .promo-title {
+  text-align: center;
   font-style: normal;
   font-weight: bold;
   font-size: 39px;
@@ -192,12 +193,12 @@ body {
 .tabs {
   display: flex;
   align-items: center;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   /* border-bottom: 1px solid #c7a8a8; */
-  /* border-bottom: 4px dotted #f7e3e3; */ 
+  /* border-bottom: 4px dotted #f7e3e3; */
   border-bottom: 4px dotted rgba(253, 205, 205, 0.747);
   /* border-bottom: 4px dotted rgba( 244, 214, 214, 0.74); */
-  
+
   padding-bottom: 10px;
 }
 .tab {
@@ -251,7 +252,7 @@ body {
   justify-content: space-between;
   height: 40px;
 
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .card-title {
@@ -292,9 +293,9 @@ body {
   margin-right: 10px;
   text-decoration: none;
   padding: 5px 20px;
-  border-radius: 20px;  
+  border-radius: 20px;
   border: 1px solid #f7dfdf;
-  
+
   font-weight: 700;
   font-size: 14px;
   line-height: 20px;
@@ -304,7 +305,7 @@ body {
   cursor: pointer;
 }
 .promo-link:hover,
-.repository-link:hover {  
+.repository-link:hover {
   box-shadow: 0px 4px 12px rgba(138, 63, 63, 0.281);
   padding: 5px 21px;
 }
@@ -312,4 +313,197 @@ body {
 .footer {
   height: 50px;
   display: none;
+}
+
+/* АДАПТИВ */
+@media (max-width: 1336px) {
+  .container {
+    max-width: 960px;
+  }
+  .card-text {
+    padding-top: 17px;
+  }
+  .card-title {
+    font-size: 16px;
+  }
+  .card-image {
+    width: 100%;
+    height: 203px;
+  }
+  .stack-items {
+    height: 40px;
+  }
+  .stack-item {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .promo-link,
+  .repository-link {
+    font-size: 13px;
+  }
+  .card-date {
+    font-size: 13px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+  .promo {
+    margin-bottom: 42px;
+  }
+  .promo-title {
+    font-size: 34px;
+  }
+  .section-title {
+    font-size: 30px;
+    line-height: 32px;
+    margin-bottom: 22px;
+  }
+  .section-heading {
+    margin-bottom: 35px;
+  }
+  .tab-title {
+    padding-right: 20px;
+  }
+  .card-project {
+    flex-basis: 49%;
+  }
+  .card-title {
+    font-size: 18px;
+  }
+  .card-image {
+    width: 384px;
+    height: 250px;
+  }
+  .stack-item {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .promo-link,
+  .repository-link {
+    font-size: 14px;
+  }
+  .card-date {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 560px;
+  }
+  .promo-title {
+    font-size: 26px;
+  }
+  .section-title {
+    font-size: 25px;
+    line-height: 28px;
+    margin-bottom: 22px;
+  }
+  .tab-title {
+    padding-right: 18px;
+    font-size: 21px;
+  }
+  .card-title {
+    font-size: 16px;
+  }
+  .card-image {
+    width: 100%;
+    height: 187px;
+  }
+  .stack-items {
+    height: 40px;
+    margin-top: 10px;
+  }
+  .stack-item {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .promo-link,
+  .repository-link {
+    font-size: 13px;
+  }
+  .card-date {
+    font-size: 13px;
+  }
+}
+@media (max-width: 578px) {
+  .container {
+    max-width: 90%;
+  }
+  .promo {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+  .promo-title {
+    font-size: 23px;
+  }
+  .section-heading {
+    margin-bottom: 28px;
+  }
+  .section-title {
+    font-size: 21px;
+    margin-bottom: 12px;
+  }
+  .tabs {
+    padding-bottom: 5px;
+  }
+  .tab-title {
+    font-size: 18px;
+  }
+  .card-project {
+    flex-basis: 100%;
+  }
+  .card-title {
+    font-size: 18px;
+  }
+  .card-image {
+    width: 100%;
+    height: auto;
+  }
+  .stack-item {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .promo-link,
+  .repository-link {
+    font-size: 14px;
+  }
+  .card-date {
+    font-size: 14px;
+  }
+}
+@media (max-width: 480px) {
+  .promo {
+    padding: 20px;
+  }
+  .promo-title {
+    line-height: 30px;
+  }
+  .tab-title {
+    padding-right: 12px;
+    font-size: 17px;
+  }
+  .card-heading {
+    height: auto;
+  }
+  .card-title {
+    font-size: 17px;
+  }
+  .card-date {
+    font-size: 12px;
+  }
+  .stack-item {
+    font-size: 13px;
+    line-height: 19px;
+  }
+  .promo-link,
+  .repository-link {
+    padding: 5px 13px;
+  }
+  .promo-link:hover,
+  .repository-link:hover {
+    padding: 5px 14px;
+  }
 }
